@@ -1,3 +1,0 @@
-Git command
-git remote -v ----> this tells us at present git remote is pointing to which directory
-git remote set-url origin <repo-url> -------> to change the git pointer to this url
