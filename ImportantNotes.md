@@ -13,6 +13,10 @@ newgrp docker
 sudo chmod 777 /var/run/docker.sock
 ```
 ```sh
+sudo usermod -a -G docker $USER && newgrp docker
+
+```
+```sh
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 ```
 ```sh
