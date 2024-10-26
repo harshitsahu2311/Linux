@@ -45,3 +45,13 @@ kubectl get po -A
 netstat -lntp
 ```
 
+## Batcat Command
+```sh
+batcat deploy.yaml
+```
+![](https://github.com/harshitsahu2311/Linux/blob/main/batcat.png)
+
+- To run this command firstly install bat
+```sh
+sudo apt install bat
+```
