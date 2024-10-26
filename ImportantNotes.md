@@ -40,4 +40,8 @@ sudo snap install kubectl --classic
 ```sh
 kubectl get po -A
 ```
+## Command for finding service in every port
+```sh
+netstat -lntp
+```
 
