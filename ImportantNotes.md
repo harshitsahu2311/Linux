@@ -55,3 +55,12 @@ batcat deploy.yaml
 ```sh
 sudo apt install bat
 ```
+
+## To copy anything from local to server
+```sh
+ scp -i "new-key.pem" new-key.pem ubuntu@ec2-54-169-224-179.ap-southeast-1.compute.amazonaws.com:/home/ubuntu/keys
+```
+- scp -> secure copy
+-  i -> authentication through key
+-  new-key.pem -> object to copied (source)
+-  ubuntu@ec2-54-169-224-179.ap-southeast-1.compute.amazonaws.com:/home/ubuntu/keys -> Destination
